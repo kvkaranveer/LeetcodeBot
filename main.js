@@ -89,7 +89,7 @@ async function myleetcodebot() {
         
          await createmypdf(mytopicname,allproblems);
         await ntab.close();
-        await page.waitForTimeout(1000);
+       
        }
        
   }
